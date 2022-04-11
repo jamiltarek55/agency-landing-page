@@ -40,6 +40,7 @@ export default function Footer() {
           </Box>
           <Text sx={styles.footer.copyright}>
             Developed By Tarek Jamin.
+            <br />
             Copyright by {new Date().getFullYear()} RedQ, Inc
           </Text>
         </Box>
