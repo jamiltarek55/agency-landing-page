@@ -23,7 +23,7 @@ const social = [
     icon: <FaTwitter />,
   },
   {
-    path: '/',
+    path: '/https://github.com/jamiltarek55/',
     icon: <FaGithubAlt />,
   },
   {
