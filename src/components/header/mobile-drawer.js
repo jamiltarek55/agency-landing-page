@@ -16,7 +16,7 @@ import menuItems from './header.data';
 const social = [
   {
     path: '/',
-    icon: <FaFacebookF />,
+    icon: <FaFacebook />,
   },
   {
     path: '/',
@@ -24,7 +24,7 @@ const social = [
   },
   {
     path: '/https://github.com/jamiltarek55/',
-    icon: <FaGithubAlt />,
+    icon: <FaGithub />,
   },
   {
     path: '/',
