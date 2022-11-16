@@ -18,6 +18,7 @@ import Subscribe from '../sections/subscribe';
 
 export default function IndexPage() {
   return (
+    
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
