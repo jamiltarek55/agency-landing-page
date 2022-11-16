@@ -12,6 +12,5 @@ export default function CustomApp({ Component, pageProps }) {
     logPageView();
     Router.events.on('routeChangeComplete', logPageView);
   }, []);
-
   return <Component {...pageProps} />;
 }
