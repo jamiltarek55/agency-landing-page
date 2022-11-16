@@ -51,7 +51,6 @@ export default function Feature() {
           slogan="Quality features"
           title="Amazing useful features"
         />
-
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <FeatureCard
