@@ -284,7 +284,6 @@ export default function Package() {
     showDots: false,
     sliderClass: '',
   };
-
   return (
     <section id="pricing" sx={{ variant: 'section.pricing' }}>
       <Container>
@@ -337,6 +336,7 @@ const fadeIn = keyframes`
     opacity: 1;
   }
 `;
+
 const fadeIn2 = keyframes`
   from {
     transform: translateY(50%);
@@ -347,6 +347,7 @@ const fadeIn2 = keyframes`
     opacity: 1;
   }
 `;
+
 const styles = {
   pricingWrapper: {
     mb: '-40px',
