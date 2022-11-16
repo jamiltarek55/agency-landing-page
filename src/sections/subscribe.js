@@ -5,9 +5,7 @@ import { jsx } from 'theme-ui';
 import { Container, Flex, Box, Button, Input, Text, Heading } from 'theme-ui';
 
 export default function Subscribe() {
-  // 1. Create a reference to the input so we can fetch/clear it's value.
   const inputEl = useRef(null);
-  // 2. Hold a status in state to handle the response from our API.
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -15,15 +13,12 @@ export default function Subscribe() {
   });
   const handleMailChimpResponse = (errorMsg, successMsg) => {
     if (errorMsg) {
-      // 4. If there was an error, update the message in state.
       setStatus({
         info: { error: true, msg: errorMsg },
       });
 
       return;
     }
-
-    // 5. Clear the input value and show a success message.
     setStatus({
       submitted: true,
       submitting: false,
@@ -34,7 +29,6 @@ export default function Subscribe() {
 
   const handleSendGridResponse = (status, msg) => {
     if (status === 200) {
-      // 5. Clear the input value and show a success message.
       setStatus({
         submitted: true,
         submitting: false,
@@ -50,8 +44,6 @@ export default function Subscribe() {
   const subscribe = async (e) => {
     e.preventDefault();
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
-
-    // 3. Send a request to our API with the user's email address.
     const res = await fetch('/api/subscribe', {
       body: JSON.stringify({
         email: inputEl.current.value,
