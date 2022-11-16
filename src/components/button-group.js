@@ -18,6 +18,7 @@ export default function ButtonGroup({ next, previous }) {
     </Flex>
   );
 }
+
 const styles = {
   buttonGroup: {
     display: 'flex',
