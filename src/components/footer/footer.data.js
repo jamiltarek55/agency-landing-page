@@ -29,6 +29,7 @@ export default {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
     },
   ],
+  
   menuItem: [
     {
       path: '/',
