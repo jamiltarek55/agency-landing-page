@@ -20,7 +20,6 @@ export default function Banner() {
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
-
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
         </Box>
