@@ -4,7 +4,6 @@ import SectionHeader from 'components/section-header';
 import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
-
 import Avatar1 from 'assets/testimonial/avatar1.png';
 import Avatar2 from 'assets/testimonial/avatar2.png';
 import Avatar3 from 'assets/testimonial/avatar3.png';
