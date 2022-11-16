@@ -51,5 +51,4 @@ Drawer.defaultProps = {
   width: '320px',
   placement: 'left',
 };
-
 export default Drawer;
