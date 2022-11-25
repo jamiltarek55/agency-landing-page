@@ -39,9 +39,9 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
-            Developed By Tarek Jamin.
+             Copyright by {new Date().getFullYear()} RedQ, Inc.
             <br />
-            Copyright by {new Date().getFullYear()} RedQ, Inc
+            Developed By Tarek Jamin.
           </Text>
         </Box>
       </Container>
